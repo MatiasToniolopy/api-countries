@@ -1,0 +1,106 @@
+.contenedor-f {
+    background-image: url("../images/updateimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4rem;
+
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px #000;
+    opacity: 0.8;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.form-control {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 0 10px;
+}
+
+.upd{
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.upd:hover{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.nombre {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgb(29, 22, 22);
+    padding: 0 10px;
+    background-color: rgb(105, 87, 87);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+
+.back-h {
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.back-h:hover{
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}

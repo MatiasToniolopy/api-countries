@@ -1,0 +1,76 @@
+.container-home {
+    background-image: url('../images/mundohome2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    background-color: #706d6d;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+.btn-up:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+.filtros-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.not-found-message-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: -1rem 0 3rem rgb(71, 125, 129);
+    transition: 0.4s ease-out;
+    padding-bottom: 10px;
+    width: 650px;
+    /* height: auto; */
+    margin: 30px;
+    justify-content: center;
+    border: 1px solid black;
+    opacity: 0.9;
+}
+
+.not-found-message {
+    font-size: 20px;
+    color: #0d172a;
+    margin-top: 20px;
+}
+
+.img-john {
+    width: 300px;
+    height: 200px;
+    padding: 0;
+}
